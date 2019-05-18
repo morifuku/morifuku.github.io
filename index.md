@@ -1,11 +1,6 @@
-# 森福
+# Shigeru Morifuku
+* C/C++ Programmer
+* Network Application Engineer
 
-## 茂
 
-### よろしくお願いいたします。
-
-```$xslt
-main(){
-  printf("HELLO WORLD\n");
-}
-```
+### Cheat Sheets
