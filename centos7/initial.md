@@ -1,15 +1,16 @@
-## Initial CentOS7 Setup
+## CentOS7 Minimal Setup
 CentOS Minimal Installation from [here](http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1810.iso).
 
-### Hostname
+### Hostname, YUM Repository
 ```
 hostnamectl set-hostname pc123.morifuku.com
+yum install epel-release
 ```
 ### Networking, Security
 
 Note that: the following steps make your centos7 "unsecured".
 ```
-yum install net-tools epel-release
+yum install net-tools
 nmcli c add type ethernet ifname enp0s8 con-name enp0s8
 nmcli c add type ethernet ifname enp0s9 con-name enp0s9
 nmcli c add type ethernet ifname enp0s10 con-name enp0s10
@@ -33,13 +34,14 @@ reboot
 SELINUX=disabled
 ```
 
-### NTP
+### NTP, Time Zone
 ```
 vi /etc/chrony.conf
 systemctl start chronyd
 systemctl enable chronyd
 systemctl status chronyd
 chronyc tracking
+ln -sf  /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 ```
 /etc/chrony.conf
 ```
@@ -48,9 +50,4 @@ chronyc tracking
 #server 2.centos.pool.ntp.org iburst
 #server 3.centos.pool.ntp.org iburst
 server ntp.nict.jp iburst
-```
-
-### TZ
-```
-ln -sf  /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 ```

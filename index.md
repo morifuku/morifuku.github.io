@@ -7,7 +7,7 @@
 
 
 ### CentOS7 Cheat Sheets
-* [Initial Server Setup](centos7/initial.html)
+* [CentOS7 Minimal Setup](centos7/initial.html)
 * [DPDK](centos7/dpdk.html)
 * [SR-IOV for I350](i350.html)
 * [SR-IOV for X540/X550](x550.html)
