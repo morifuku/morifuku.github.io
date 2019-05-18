@@ -7,4 +7,4 @@
 
 
 ### CentOS7 Cheat Sheets
-* [Initial](centos7/.initial.md)
+* [Initial](centos7/initial.md)
