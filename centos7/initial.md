@@ -1,5 +1,5 @@
 ## CentOS7 Minimal Setup
-Real programmers do NOT need any graphical environment.
+Real programmers do NOT need any graphical environments.
 This page shows the way to setup the minimal CentOS7.
 The latest minimal installation media is available 
 [here](http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1810.iso).
