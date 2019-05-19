@@ -1,7 +1,8 @@
-* Real Programmers do List Processing in C.
-* Real Programmers do String Manipulation in C.
-* Real Programmers do Accounting (if they do it at all) in C.
-* Real Programmers do Artificial Intelligence programs in C.
+## Real Programmers
+* do List Processing in C.
+* do String Manipulation in C.
+* do Accounting (if they do it at all) in C.
+* do Artificial Intelligence programs in C.
 * [reference](https://web.mit.edu/humor/Computers/real.programmers)
 
 ## Shigeru Morifuku
