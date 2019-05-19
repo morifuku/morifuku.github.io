@@ -4,12 +4,12 @@ This page shows the way to setup the minimal CentOS7.
 The latest minimal installation media is available 
 [here](http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1810.iso).
 
-### Hostname, YUM Repository
+### 1. Hostname, YUM Repository
 ```
 hostnamectl set-hostname pc123.morifuku.com
 yum install epel-release
 ```
-### Networking, Security
+### 2. Networking, Security
 
 Note that: the following steps make your centos7 "unsecured".
 ```
@@ -37,7 +37,7 @@ reboot
 SELINUX=disabled
 ```
 
-### NTP, Time Zone
+### 3. NTP, Time Zone
 ```
 vi /etc/chrony.conf
 systemctl start chronyd
