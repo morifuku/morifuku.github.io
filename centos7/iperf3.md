@@ -25,7 +25,7 @@ echo 1 > /proc/sys/net/ipv6/conf/all/forwarding
 ```
 
 ### Server
-Receive packets from client (2001:2::14) via Gateway-Rear (2001:3::12)
+Receive packets from Client (2001:2::14) to Server (2001:3::19) via Gateway-Rear (2001:3::12)
 ```
 nmcli c mod enp1s0f1 ipv6.address 2001:3::19/64
 nmcli c down enp1s0f1
