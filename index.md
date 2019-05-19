@@ -3,7 +3,7 @@
 * do String Manipulation in C.
 * do Accounting (if they do it at all) in C.
 * do Artificial Intelligence programs in C.
-* [reference](https://web.mit.edu/humor/Computers/real.programmers)
+* see also [1]
 
 ### CentOS7 Cheat Sheets
 * [CentOS7 Minimal Setup](centos7/initial.html)
@@ -20,3 +20,6 @@
 * Mail: morifuku@gmail.com
 * Voice Mail (US): +1 (985) 664-9256‬
 * Address: Chigasaki, Kanagawa, JAPAN
+
+### References
+1. [Real Programmers Don't Use PASCAL](https://web.mit.edu/humor/Computers/real.programmers)
