@@ -1,5 +1,8 @@
 ## CentOS7 Minimal Setup
-CentOS Minimal Installation from [here](http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1810.iso).
+Real Programmers do NOT need any graphical environment.
+This page shows the way to setup the minimal CentOS7.
+The latest minimal installation media is available 
+[here](http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1810.iso).
 
 ### Hostname, YUM Repository
 ```
