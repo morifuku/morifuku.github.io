@@ -1,6 +1,6 @@
 ## IPv6 iperf3 Trial
-
 A simple IPv6 traffic test by using iperf3 without IPv6 NDP procedure.
+Real Programmers use iperf3 IPv6 traffic test.
 
 ### Client
 Send packets from Client (2001:2::14) to Server (2001:3::19) via Gateway-Front (2001:2::12)
