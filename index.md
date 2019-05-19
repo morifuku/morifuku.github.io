@@ -12,6 +12,7 @@
 * [SR-IOV for X540/X550](x550.html)
 * [KVM FVIO](fvio.html)
 * [Wi-Fi client](wifi-c.html)
+* [IPv6 iperf3 Trial](centos7/iperf3.html)
 
 ### Author: Shigeru Morifuku
 * Real C/C++ Programmer
