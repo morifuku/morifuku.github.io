@@ -8,7 +8,7 @@
 ## Shigeru Morifuku
 * Real C/C++ Programmer
 * Telecommunication Network Software Engineer
-* BLog: (morifuku.net)[http://morifuku.net]
+* BLog: [morifuku.net](http://morifuku.net)
 * Mail: morifuku@gmail.com
 * Voice Mail (US): +1 (985) 664-9256‬
 * Address: Chigasaki, Kanagawa, JAPAN
