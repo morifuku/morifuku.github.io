@@ -1,5 +1,11 @@
-# Shigeru Morifuku
-* C/C++ Programmer
+* Real Programmers do List Processing in C.
+* Real Programmers do String Manipulation in C.
+* Real Programmers do Accounting (if they do it at all) in C.
+* Real Programmers do Artificial Intelligence programs in C.
+* [reference](https://web.mit.edu/humor/Computers/real.programmers)
+
+## Shigeru Morifuku
+* Real C/C++ Programmer
 * Telecommunication Network Software Engineer
 * Mail: morifuku@gmail.com
 * Voice Mail (US): +1 (985) 664-9256‬
