@@ -13,9 +13,11 @@ alias mnt-tc="mount -t cifs //ap8/6T -o username=morifuku,password=MYPASSWORD,se
 alias ntp="chronyc tracking"
 alias d="docker"
 alias dex="docker exec -it"
+alias dls="docker ps -a"
 alias v="virsh"
 alias ll="ls -l"
 alias db="dpdk-devbind"
+alias vls="virsh list --all; arp -a | grep virbr0"
 sysctl -w net.ipv4.ip_forward=1
 getenforce
 systemctl status firewalld
