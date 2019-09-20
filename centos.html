@@ -7,8 +7,8 @@
 #
 ulimit -c unlimited
 set -o vi
-systemctl status firewalld
 cat /proc/meminfo | grep HugePages
+systemctl status firewalld | grep firewalld.service
 printf "IP FORWARD: ";sysctl net.ipv4.ip_forward
 printf "SELINUX: ";getenforce
 #
