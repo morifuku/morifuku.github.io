@@ -7,7 +7,7 @@
 #
 ulimit -c unlimited
 set -o vi
-cat /proc/meminfo | grep HugePages
+cat /proc/meminfo | grep Huge
 printf "Firewalld: "; systemctl status firewalld | grep Active
 printf "IP FORWARD: ";sysctl net.ipv4.ip_forward
 printf "SELINUX: ";getenforce
