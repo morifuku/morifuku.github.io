@@ -13,7 +13,6 @@ printf "Firewalld: ";systemctl status firewalld | grep Active
 printf "IP FORWARD: ";sysctl net.ipv4.ip_forward
 printf "SELINUX: ";getenforce
 grep "^dns=none" /etc/NetworkManager/NetworkManager.conf
-grep "^nameserver" /etc/resolv.conf
 nslookup morifuku.net | grep "^Server"
 env | grep _proxy
 #
