@@ -14,6 +14,7 @@ printf "IP FORWARD: ";sysctl net.ipv4.ip_forward
 printf "SELINUX: ";getenforce
 grep "^dns=none" /etc/NetworkManager/NetworkManager.conf
 grep "^nameserver" /etc/resolv.conf
+nslookup | grep "^Server"
 env | grep _proxy
 #
 alias ip-fwd-0="sysctl -w net.ipv4.ip_forward=0"
