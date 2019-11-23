@@ -12,7 +12,8 @@ cat /proc/meminfo | grep Huge
 printf "Firewalld: ";systemctl status firewalld | grep Active
 printf "IP FORWARD: ";sysctl net.ipv4.ip_forward
 printf "SELINUX: ";getenforce
-grep nameserver /etc/resolv.conf
+printf "Network Manager:"; grep "^dns" /etc/NetworkManager/NetworkManager.conf
+grep "^nameserver" /etc/resolv.conf
 env | grep _proxy
 #
 alias ip-fwd-0="sysctl -w net.ipv4.ip_forward=0"
