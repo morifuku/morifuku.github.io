@@ -10,6 +10,7 @@ ulimit -c unlimited
 set -o vi
 cat /proc/meminfo | grep "^Huge"
 printf "Firewalld: ";systemctl status firewalld | grep -e active -e inactive
+printf "iptables: ";systemctl status iptables | grep -e active -e inactive
 printf "IP FORWARD: ";sysctl net.ipv4.ip_forward
 printf "SELINUX: ";getenforce
 grep "^dns=none" /etc/NetworkManager/NetworkManager.conf
