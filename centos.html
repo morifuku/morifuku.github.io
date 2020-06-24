@@ -11,6 +11,8 @@
 #
 ulimit -c unlimited
 set -o vi
+setterm -blank off
+#
 cat /proc/meminfo | grep "^Huge"
 printf "Firewalld: ";systemctl status firewalld | grep -e active -e inactive
 printf "iptables:  ";systemctl status iptables | grep -e active -e inactive
