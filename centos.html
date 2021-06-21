@@ -20,7 +20,7 @@ printf "Firewalld: ";systemctl status firewalld | grep -e active -e inactive
 printf "iptables:  ";systemctl status iptables | grep -e active -e inactive
 printf "IP FORWARD: ";sysctl net.ipv4.ip_forward
 printf "SELINUX: ";getenforce
-grep "^dns=none" /etc/NetworkManager/NetworkManager.conf
+printf "NetworkManager.conf: "; grep "^dns=none" /etc/NetworkManager/NetworkManager.conf
 nslookup morifuku.net | grep "^Server"
 env | grep _proxy
 fdisk -l 2>/dev/null | grep "^Disk" | grep -v mapper | grep -v ram | grep dev
